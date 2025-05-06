@@ -1,4 +1,4 @@
-### SeatudioExerciseResearch(6/5/2025) 
+# SeatudioExerciseResearch(6/5/2025) 
 ## BigInt trong Js
 -BigInt là kiểu dữ liệu số nguyên với dung lượng `không có giới hạn cụ thể` (tuỳ theo bộ nhớ).
 -BigInt `không tương thích` với hàm Math cũng như các toán tử trực tiếp.
@@ -14,9 +14,9 @@
 -Sai số làm tròn: 
 Do số lượng bit hữu hạn để biểu diễn một số thực, nhiều số thập phân `không thể được biểu diễn chính xác dưới dạng nhị phân`. Điều này dẫn đến `sai số làm tròn` trong các phép tính. Đây là lý do tại sao `0.1 + 0.2` trong JavaScript thường không bằng `0.3` một cách tuyệt đối.
 ## Destructuring
-# Khái niệm
+### Khái niệm
 Trong JavaScript, destructuring (hay destructure) là một cú pháp cho phép bạn `trích xuất giá trị` từ mảng hoặc object và gán chúng vào các biến một cách ngắn gọn, dễ đọc hơn.
-# Lợi ích và nhược điểm
+### Lợi ích và nhược điểm
 -Lợi ích:
 Cú pháp ngắn gọn, dễ đọc.
 Dễ dàng lấy dự liệu từ object hoặc array.
@@ -31,7 +31,7 @@ Gán lại tham chiếu và thay đổi dữ liệu gốc ngoài ý muốn (JS k
 `const { nested } = obj;`
 `nested.value = 999;`
 `console.log(obj.nested.value); // 999`
-# Trường hợp đặc biệt : Destructuring một object B bên trong một object A
+### Trường hợp đặc biệt : Destructuring một object B bên trong một object A
 Kết quả sau khi destructuring sẽ tạo ra một object B mới nhưng vẫn sẽ reference về object A.
 khi thay đổi một giá trị trong obj B sau khi được destructuring, giá trị của obj A sẽ thay đổi theo và ngược lại.
 `const Animal = {`
